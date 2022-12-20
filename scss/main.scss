@@ -1,0 +1,81 @@
+:root{
+    --bs-headerText:'Noto Serif JP';
+    --bs-headerParagraph:'Montserrat', sans-serif;
+}
+
+$dark:#F8F3E9;
+
+.navbar-brand{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.mainNavItems{
+    ul{
+        font-family: 'ABeeZee';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+    }
+}
+.ourStoryHeader{
+    margin: 0;
+    h1{
+        font-family: var(--bs-headerText);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+    }
+    p{
+    color: #3D3D3F;
+    font-family: var(--bs-headerParagraph) ;
+    font-size: 12px;
+    }
+}
+.column1Hero{
+    h1{
+        font-size: 30px;
+    }
+}
+@media only screen and (min-width: 768px){
+    .ourStoryHeader{
+        margin-left: 20px;
+        margin-top: 20px;
+        h1{
+            font-size: 25px;
+        }
+        p{
+            font-size: 12px;
+        }
+    }
+    .column1Hero{
+       
+    }
+}
+@media only screen and (min-width: 992px){
+    .ourStoryHeader{
+        margin-left: 40px;
+        margin-top: 20px;
+        h1{
+            font-size: 34px;
+        }
+        p{
+            font-size: 14px;
+        }
+
+    }
+    .column1Hero{
+        h1{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 60px;
+        font-family: var(--bs-headerText);
+        }
+    }
+}
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+
