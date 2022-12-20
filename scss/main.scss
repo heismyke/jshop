@@ -1,5 +1,5 @@
 :root{
-    --bs-headerText:'Noto Serif JP';
+    --bs-headerText:'Noto Serif JP', sans-serif;
     --bs-headerParagraph:'Montserrat', sans-serif;
 }
 
@@ -39,6 +39,30 @@ $dark:#F8F3E9;
         font-size: 30px;
     }
 }
+.jewelryText{
+
+}
+.circleExplore{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;  
+  top: 0;   
+  width: 100px;
+  height: 100px;
+  outline: #3D3D3F 1px solid;
+text-decoration: underline
+}
+.playBtn{
+    width: 50%;
+    height: 50px;
+    background-color: none;
+    bottom: 30px;
+    right: 0;
+}
+.play{
+    gap:20px;
+}
+//for tablet
 @media only screen and (min-width: 768px){
     .ourStoryHeader{
         margin-left: 20px;
@@ -49,11 +73,32 @@ $dark:#F8F3E9;
         p{
             font-size: 12px;
         }
+        
     }
-    .column1Hero{
-       
+    .bar{
+        margin-top: 150px;
     }
+    .jewelryText{
+        margin-left: 100px;
+    }
+    
+    .circleExplore{
+        top: 0;
+        left: -30px;
+        width: 70px;
+        height: 70px;
+        outline: #3D3D3F 1px solid;
+        text-decoration: underline
+
+    }
+    .playBtn{
+        bottom: 30px;
+        right: 0;
+        width: 50%;
+    }
+
 }
+//for laptop
 @media only screen and (min-width: 992px){
     .ourStoryHeader{
         margin-left: 40px;
@@ -74,6 +119,32 @@ $dark:#F8F3E9;
         font-family: var(--bs-headerText);
         }
     }
+
+    .jewelryText{
+    margin-left: 100px;
+    }
+
+    .bar{
+        margin-top: 150px;
+    }
+    .circleExplore{
+        top: 40px;
+        left: -70px;
+        width: 120px;
+        height: 120px;
+        outline: #3D3D3F 1px solid;
+        text-decoration: underline
+
+        
+
+    }
+
+    .playBtn{
+        bottom: 200px;
+        right: 0;
+        width: 30%;
+    }
+   
 }
 
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
