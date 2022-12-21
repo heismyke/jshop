@@ -22,6 +22,7 @@ $dark:#F8F3E9;
 }
 .ourStoryHeader{
     margin: 0;
+    margin-top: 30px;
     h1{
         font-family: var(--bs-headerText);
         font-style: normal;
@@ -36,16 +37,19 @@ $dark:#F8F3E9;
 }
 .column1Hero{
     h1{
-        font-size: 30px;
+        font-size: 35px;
+        text-align: center;
+
     }
 }
-.jewelryText{
 
-}
 .circleExplore{
   width: 120px;
   height: 120px;
-  border-radius: 50%;  
+  -webkit-border-radius: 50%;
+     -khtml-border-radius: 50%;
+       -moz-border-radius: 50%;
+            border-radius: 50%;
   top: 0;   
   width: 100px;
   height: 100px;
