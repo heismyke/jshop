@@ -48,12 +48,11 @@ $dark:#F8F3E9;
   height: 100px;
   z-index: 3502;
   display: block;
+  border: 1px  solid #3D3D3F;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  outline-offset: 1px #3D3D3F 1px solid;
-  text-decoration: underline;
-        
+  text-decoration: underline;       
   top: 0;   
   width: 100px;
   height: 100px;
@@ -117,14 +116,14 @@ text-decoration: underline;
         width: 70px;
         height: 70px;
         border-radius: 50%;
-        outline: #3D3D3F 1px solid;
+        border: 1px  solid #3D3D3F;
         z-index: 3502;
         display: block;
         -webkit-border-radius: 50%;
         -moz-border-radius: 50%;
         border-radius: 50%;
-        outline-offset: 1px #3D3D3F 1px solid;
-        outline-offset: 1px;
+      
+        
     
         
     }
@@ -178,7 +177,7 @@ text-decoration: underline;
         -webkit-border-radius: 50%;
         -moz-border-radius: 50%;
         border-radius: 50%;
-        outline-offset: 1px #3D3D3F 1px solid;
+        border: 1px  solid #3D3D3F;
         text-decoration: underline;
         
 
