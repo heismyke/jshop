@@ -52,6 +52,7 @@ $dark:#F8F3E9;
   -moz-border-radius: 50%;
   border-radius: 50%;
   outline: #3D3D3F 1px solid;
+  outline-offset: 1px;
   text-decoration: underline;
         
   top: 0;   
@@ -124,6 +125,7 @@ text-decoration: underline;
         -moz-border-radius: 50%;
         border-radius: 50%;
         outline: #3D3D3F 1px solid;
+        outline-offset: 1px;
         text-decoration: underline;
         
     }
@@ -179,6 +181,7 @@ text-decoration: underline;
         border-radius: 50%;
         outline: #3D3D3F 1px solid;
         text-decoration: underline;
+        outline-offset: 1px;
 
         
 
