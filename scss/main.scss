@@ -22,7 +22,7 @@ $dark:#F8F3E9;
 }
 .ourStoryHeader{
     margin: 0;
-    margin-top: 30px;
+    margin-top: 50px;
     h1{
         font-family: var(--bs-headerText);
         font-style: normal;
@@ -38,7 +38,7 @@ $dark:#F8F3E9;
 .column1Hero{
     h1{
         font-size: 35px;
-        text-align: center;
+        text-align: left;
 
     }
 }
@@ -66,6 +66,23 @@ text-decoration: underline
 .play{
     gap:20px;
 }
+.goldSilverText{
+    margin-left: 0;
+    margin-top: 50px;
+    p{
+        font-size: 12px;
+        font-family: var(--bs-headerParagraph);
+    }
+}
+
+.goldText{
+    font-family: var(--bs-headerText);
+   
+}
+.silverText{
+    font-family: var(--bs-headerText);
+}
+
 //for tablet
 @media only screen and (min-width: 768px){
     .ourStoryHeader{
@@ -83,7 +100,11 @@ text-decoration: underline
         margin-top: 150px;
     }
     .jewelryText{
-        margin-left: 100px;
+        margin-left: 50px;
+
+        // h1{
+        //     font-size: 25px;
+        // }
     }
     
     .circleExplore{
@@ -99,6 +120,10 @@ text-decoration: underline
         bottom: 30px;
         right: 0;
         width: 50%;
+    }
+
+    .goldSilverText{
+        margin-left: 50px;
     }
 
 }
@@ -147,6 +172,10 @@ text-decoration: underline
         bottom: 200px;
         right: 0;
         width: 30%;
+    }
+
+    .goldSilverText{
+        margin-left: 100px;
     }
    
 }
