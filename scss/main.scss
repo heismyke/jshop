@@ -3,7 +3,7 @@
     --bs-headerParagraph:'Montserrat', sans-serif;
 }
 
-$dark:#F8F3E9;
+$primary:#F8F3E9;
 
 .navbar-brand{
     font-family: 'Playfair Display';
@@ -85,6 +85,39 @@ text-decoration: underline;
     font-family: var(--bs-headerText);
 }
 
+#bracelet{
+    margin-top: 30px;
+}
+.braceletText{
+    h2{
+        font-family: var(--bs-headerText);
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 69px;
+        letter-spacing: 0.05em;
+    }
+
+    p{
+        font-family: var(--bs-headerParagraph);
+        font-size: 14px;
+        line-height: 150%;
+    }
+}
+
+.spanSML{
+   h3{
+    font-family: var(--bs-headerParagraph);
+   }
+   span{
+    padding-right: 30px;
+   }
+}
+.buttonStyle{
+    h3{
+        font-family: var(--bs-headerText);
+    }
+}
+
 //for tablet
 @media only screen and (min-width: 768px){
     .ourStoryHeader{
@@ -136,6 +169,9 @@ text-decoration: underline;
         margin-left: 50px;
     }
 
+    #bracelet{
+        margin-top: 100px;
+    }
 }
 //for laptop
 @media only screen and (min-width: 992px){
@@ -154,8 +190,9 @@ text-decoration: underline;
         h1{
         font-style: normal;
         font-weight: 600;
-        font-size: 60px;
+        font-size: 70px;
         font-family: var(--bs-headerText);
+        line-height: 130%;
         }
     }
 
@@ -193,7 +230,9 @@ text-decoration: underline;
     .goldSilverText{
         margin-left: 100px;
     }
-   
+    #bracelet{
+        margin-top: 200px;
+    }
 }
 
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
