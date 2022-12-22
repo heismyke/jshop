@@ -93,6 +93,9 @@ text-decoration: underline;
 #bracelet{
     margin-top: 30px;
 }
+#ring{
+    margin-top: 50px;
+}
 .braceletText{
     h2{
         font-family: var(--bs-headerText);
@@ -177,7 +180,9 @@ text-decoration: underline;
     #bracelet{
         margin-top: 100px;
     }
-
+    #ring{
+        margin-top: 100px;
+    }
     .braceletText{
         h2{
             font-family: var(--bs-headerText);
@@ -264,6 +269,10 @@ text-decoration: underline;
         margin-left: 100px;
     }
     #bracelet{
+        margin-top: 200px;
+    }
+
+    #ring{
         margin-top: 200px;
     }
 
